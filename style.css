@@ -1,0 +1,206 @@
+body {
+    margin: 0;
+    direction: ltr;
+
+}
+
+
+
+/* control button */
+#top {
+    /* border: 1px solid red; */
+    width: 1420px;
+    height: 36px;
+    margin: auto;
+    display: flex;
+    align-items: flex-end;
+}
+
+#top>.tab {
+    border-style: solid;
+    border-color: #fff;
+    border-width: 1px 1px 0 1px;
+    background: rgb(72, 86, 95);
+    width: 200px;
+    height: 30px;
+    display: flex;
+    border-radius: 5px 5px 0 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+
+
+.tab>button {
+    padding: 0;
+    border: none;
+    background: none;
+    border-radius: 20px;
+    width: 16px;
+    height: 16px;
+}
+
+.tab>button>img {
+    width: 12px;
+    height: 12px;
+}
+
+.tab>button:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+#top>.newTab {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+#top>.newTab:hover {
+    background: rgba(255, 255, 255, 0.3);
+
+}
+
+#top>.newTab>img {
+    width: 13 px;
+    height: 13px;
+}
+
+#top>.ctrlBtn {
+    /* border: 1px solid black; */
+    width: 60px;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    margin-right: 20px;
+}
+
+.ctrlBtn>.btnctrl {
+    width: 11px;
+    height: 11px;
+    border-radius: 20px;
+    border: none;
+    padding: 0;
+}
+
+.ctrlBtn>.btnctrl:nth-child(1) {
+    background-color: rgb(237, 106, 94);
+
+}
+
+.ctrlBtn>.btnctrl:nth-child(2) {
+    background-color: rgb(244, 191, 79);
+
+}
+
+.ctrlBtn>.btnctrl:nth-child(3) {
+    background-color: rgb(97, 197, 84);
+
+}
+
+#bottom {
+    background: rgb(72, 86, 95);
+    width: 1440px;
+    height: 36px;
+}
+
+#center {
+    background: rgb(72, 86, 95);
+    width: 1440px;
+    height: 36px;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#center>.leftToolbar {
+    width: 150px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#center>.leftToolbar>.RTbtn {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+
+}
+
+#center>.leftToolbar>.RTbtn>img {
+    width: 16px;
+    height: 16px;
+}
+
+#center>.leftToolbar>.RTbtn:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+
+
+#center>.rightToolbar {
+    width: 70px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#center>.rightToolbar>.LTbtn {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+
+}
+
+#center>.rightToolbar>.LTbtn>img {
+    width: 16px;
+    height: 16px;
+}
+
+#center>.rightToolbar>.LTbtn>div {
+    align-items: center;
+    display: flex
+}
+
+#center>.rightToolbar>.LTbtn:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+#center>.addressField {
+    width: 1220px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+}
+
+#center>.addressField>input {
+    border: none;
+    padding: 0;
+    width: 1220px;
+    height: 26px;
+
+    background: url(./img/Safe.png) no-repeat;
+    background-color: rgb(59, 69, 75);
+    background-position: 10px 5px;
+    border-radius: 20px;
+    padding-left: 26px;
+}
+
+#center>.addressField>input:focus {
+    outline-color: #A8C3F8;
+    outline-style: solid;
+}
